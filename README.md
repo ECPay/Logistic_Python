@@ -1,37 +1,40 @@
-# ��ɬ�� ���y����Python3 �Ĥ@��
+# 綠界科技 物流介接Python3 第一版
 ---
 
-## 1. ����
+## 1. 介紹
 
-   ��ɬ�ު��y���ѷ|����K�ֳt���ӫ~�B�e����A�ثe�W�Ө��f�A�ȴ��ѡu���a�K�Q�W�ӡv�B�u�Τ@�W�ӡv�B�u�ܺ��I�v�A�v�t�A�ȴ��ѡu�¿ߦv�t�v�B�u�v�t�q�v�C ���M��Python3���A�i�ϥΧ@�إߪ��y�q��A�q�l�a�Ϧ걵�A�f���y�q�浥���ΡC
-  - ���ͪ��y�q��G
-    - B2C���a�K�Q�W��
-    - B2C�Τ@�W��
-    - B2C�ܺ��I
-    - C2C���a���쩱
-    - C2C�Τ@�W�ӥ�f�K
-    - C2C�ܺ��I���쩱
-    - HOME�¿ߦv�t
-    - HOME�v�t�q
+   綠界科技物流提供會員方便快速的商品運送機制，目前超商取貨服務提供「全家便利超商」、「統一超商」、「萊爾富」，宅配服務提供「黑貓宅配」、「宅配通」。 本套件為Python3版，可使用作建立物流訂單，電子地圖串接，逆物流訂單等應用。
+  - 產生物流訂單：
+    - B2C全家便利超商
+    - B2C統一超商
+    - B2C萊爾富
+    - C2C全家店到店
+    - C2C統一超商交貨便
+    - C2C萊爾富店到店
+    - HOME黑貓宅配
+    - HOME宅配通
 
 
-## 2. �w������
-	- �N ecpay_logistic_sdk.py ��m�P�@�ؿ��G
-	  �аѦ� import ���{���X�p�U�G
+## 2. 安裝環境
+	- 將 ecpay_logistic_sdk.py 放置同一目錄：
+	  請參考 import 的程式碼如下：
 	  from .ecpay_logistic_sdk import .
-	  �i�����ϥμҲդ����R�W�Ŷ� �A
-	  ��h import ���Ϊk�i�H�Ѧ� https://docs.python.org/3/reference/import.html �������C
+	  可直接使用模組中的命名空間 ，
+	  更多 import 的用法可以參考 https://docs.python.org/3/reference/import.html 的說明。
 
 
-## 3. �ϥαо�
-  - �аѦ�demo�ؿ��U���ϥνd��
+## 3. 使用教學
+  - 請參考demo目錄下的使用範例
 
 
 
-## 4. �p���ڭ�
-  - ��ɧ޳N�ȪA�H�c: techsupport@ecpay.com.tw
+## 4. 聯絡我們
+  - 綠界技術客服信箱: techsupport@ecpay.com.tw
 
+## 5.版權宣告
 
+* License: GPLv2 or later
+* License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 
 
