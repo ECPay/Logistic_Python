@@ -382,7 +382,8 @@ class CreateShippingOrder(BasePayment):
         # 回傳給 client
         response = super().send_post(
             action_url, self.final_merge_parameters)
-        query = dict(parse_qsl(response.text, keep_blank_values=True))
+        normal_qs = response.text.split('|')[1]
+        query = dict(parse_qsl(normal_qs, keep_blank_values=True))
 
         return query
 
